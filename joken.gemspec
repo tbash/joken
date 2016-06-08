@@ -6,7 +6,8 @@ Gem::Specification.new do |s|
   s.description = "Simple JWT based authentication"
   s.authors     = ["T. Brandon Ashley"]
   s.email       = "tb@tbash.co"
-  s.files       = ["lib/joken.rb"]
+  s.files       = ["lib/joken.rb", "lib/joken/tokens.rb","LICENSE", "README.md"]
   s.homepage    = "http://rubygems.org/gems/joken"
   s.license     = "MIT"
+  s.add_dependency "jwt"
 end

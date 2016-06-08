@@ -1,5 +1,4 @@
-class Joken
-  def self.simple?
-    p "true"
-  end
+require "joken/tokens"
+
+module Joken
 end
